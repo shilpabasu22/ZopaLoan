@@ -1,0 +1,7 @@
+ /logs
+ /bin
+ /.idea
+ /target
+ /Reports
+.DS_Store
+/test-output
