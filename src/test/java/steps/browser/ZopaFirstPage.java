@@ -21,7 +21,8 @@ public class ZopaFirstPage extends BasePage {
     public void iAmOnTheZopaHomePage() {
         driver = initializeDriver();
         driver.get("https://www.zopa.com/loans");
-        zopaPageObjects.infoLog("I am on the Zopa loans home page");
+       // zopaPageObjects.setAcceptcookies();
+      //  zopaPageObjects.infoLog("I am on the Zopa loans home page");
     }
 
 
